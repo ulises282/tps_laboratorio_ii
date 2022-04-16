@@ -1,0 +1,16 @@
+D:\workspace\tps_laboratorio_ii\TP1\Gomez.AlejandroUlises.2A.TP1\Entidades\obj\Debug\net5.0\Entidades.csproj.AssemblyReference.cache
+D:\workspace\tps_laboratorio_ii\TP1\Gomez.AlejandroUlises.2A.TP1\Entidades\obj\Debug\net5.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\tps_laboratorio_ii\TP1\Gomez.AlejandroUlises.2A.TP1\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfoInputs.cache
+D:\workspace\tps_laboratorio_ii\TP1\Gomez.AlejandroUlises.2A.TP1\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfo.cs
+D:\workspace\tps_laboratorio_ii\TP1\Gomez.AlejandroUlises.2A.TP1\Entidades\obj\Debug\net5.0\Entidades.csproj.CoreCompileInputs.cache
+D:\workspace\tps_laboratorio_ii\TP1\Gomez.AlejandroUlises.2A.TP1\Entidades\bin\Debug\net5.0\Entidades.exe
+D:\workspace\tps_laboratorio_ii\TP1\Gomez.AlejandroUlises.2A.TP1\Entidades\bin\Debug\net5.0\Entidades.deps.json
+D:\workspace\tps_laboratorio_ii\TP1\Gomez.AlejandroUlises.2A.TP1\Entidades\bin\Debug\net5.0\Entidades.runtimeconfig.json
+D:\workspace\tps_laboratorio_ii\TP1\Gomez.AlejandroUlises.2A.TP1\Entidades\bin\Debug\net5.0\Entidades.runtimeconfig.dev.json
+D:\workspace\tps_laboratorio_ii\TP1\Gomez.AlejandroUlises.2A.TP1\Entidades\bin\Debug\net5.0\Entidades.dll
+D:\workspace\tps_laboratorio_ii\TP1\Gomez.AlejandroUlises.2A.TP1\Entidades\bin\Debug\net5.0\ref\Entidades.dll
+D:\workspace\tps_laboratorio_ii\TP1\Gomez.AlejandroUlises.2A.TP1\Entidades\bin\Debug\net5.0\Entidades.pdb
+D:\workspace\tps_laboratorio_ii\TP1\Gomez.AlejandroUlises.2A.TP1\Entidades\obj\Debug\net5.0\Entidades.dll
+D:\workspace\tps_laboratorio_ii\TP1\Gomez.AlejandroUlises.2A.TP1\Entidades\obj\Debug\net5.0\ref\Entidades.dll
+D:\workspace\tps_laboratorio_ii\TP1\Gomez.AlejandroUlises.2A.TP1\Entidades\obj\Debug\net5.0\Entidades.pdb
+D:\workspace\tps_laboratorio_ii\TP1\Gomez.AlejandroUlises.2A.TP1\Entidades\obj\Debug\net5.0\Entidades.genruntimeconfig.cache
