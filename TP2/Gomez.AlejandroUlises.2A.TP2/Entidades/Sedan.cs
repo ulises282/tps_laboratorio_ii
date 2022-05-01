@@ -26,19 +26,30 @@ namespace Entidades
         /// <summary>
         /// Por defecto, TIPO será CuatroPuertas
         /// </summary>
-        /// <param name="marca"></param>
-        /// <param name="chasis"></param>
-        /// <param name="color"></param>
+        /// <param name="marca"> marca del vehiculo </param>
+        /// <param name="chasis"> chasis del vehiculo </param>
+        /// <param name="color"> color del vehiculo </param>
         public Sedan(EMarca marca, string chasis, ConsoleColor color)
             : this(marca, chasis, color, ETipo.CuatroPuertas)
         {
         }
 
+        /// <summary>
+        /// Cosntructor de la clase sedan 
+        /// </summary>
+        /// <param name="marca">marca del vehiculo</param>
+        /// <param name="chasis"> chasis del vehiculo </param>
+        /// <param name="color"> color del vehiculo </param>
+        /// <param name="tipo"> tipo del vehiculo </param>
         public Sedan(EMarca marca, string chasis, ConsoleColor color, ETipo tipo) : base(chasis, marca,color)
         {
             this.tipo = tipo;
         }
 
+        /// <summary>
+        /// Muestra los datos del vehiculo del tipo Sedan
+        /// </summary>
+        /// <returns> retorna los datos del vehiculo de tipo sedan </returns>
         public override sealed string Mostrar()
         {
             StringBuilder sb = new StringBuilder();

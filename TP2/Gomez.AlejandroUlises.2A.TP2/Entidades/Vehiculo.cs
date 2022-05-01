@@ -28,6 +28,12 @@ namespace Entidades
         /// </summary>
         protected abstract ETamanio Tamanio { get;}
 
+        /// <summary>
+        /// Constructor de la clase vehiculo 
+        /// </summary>
+        /// <param name="chasis">chasis a settear</param>
+        /// <param name="marca">marca a settear </param>
+        /// <param name="color"> color a settear </param>
         public Vehiculo(string chasis, EMarca marca, ConsoleColor color)
         {
             this.chasis = chasis;
@@ -39,7 +45,7 @@ namespace Entidades
         /// <summary>
         /// Publica todos los datos del Vehiculo.
         /// </summary>
-        /// <returns></returns>
+        /// <returns> Retorna los datos del vehiculo. </returns>
         public virtual string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
@@ -50,14 +56,16 @@ namespace Entidades
 
             return sb.ToString();
         }
-
+        
+        /// <summary>
+        /// Sobrecarga del metodo string que muestra los datos de un vehiculo
+        /// </summary>
+        /// <param name="p"> veiculo a mostrar </param>
         public static explicit operator string(Vehiculo p)
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine($"CHASIS: {p.chasis}\r\n");
-            sb.AppendLine($"MARCA : {p.marca.ToString()}\r\n");
-            sb.AppendLine($"COLOR : {p.color.ToString()}\r\n");
+            sb.AppendLine(p.Mostrar());
             sb.AppendLine("---------------------");
 
             return sb.ToString();
@@ -66,9 +74,9 @@ namespace Entidades
         /// <summary>
         /// Dos vehiculos son iguales si comparten el mismo chasis
         /// </summary>
-        /// <param name="v1"></param>
-        /// <param name="v2"></param>
-        /// <returns></returns>
+        /// <param name="v1"> vehiculo a comparar 1</param>
+        /// <param name="v2"> vehiculo a comparar 2</param>
+        /// <returns> retorna true en caso de ser iguales o false en caso contrario </returns>
         public static bool operator ==(Vehiculo v1, Vehiculo v2)
         {
             
@@ -82,9 +90,9 @@ namespace Entidades
         /// <summary>
         /// Dos vehiculos son distintos si su chasis es distinto
         /// </summary>
-        /// <param name="v1"></param>
-        /// <param name="v2"></param>
-        /// <returns></returns>
+        /// <param name="v1"> 1 vehiculo a comparar </param>
+        /// <param name="v2"> 2 vehiculo a comparar </param>
+        /// <returns> true en caso de ser distintos o false caso contrario </returns>
         public static bool operator !=(Vehiculo v1, Vehiculo v2)
         {
             return (!(v1.chasis == v2.chasis));

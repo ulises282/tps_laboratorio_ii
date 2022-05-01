@@ -19,10 +19,17 @@ namespace Entidades
         }
 
         #region "Constructores"
+        /// <summary>
+        ///  Constructor de la clase Taller donde se inicializa la lista.
+        /// </summary>
         private Taller()
         {
             this.vehiculos = new List<Vehiculo>();
         }
+        /// <summary>
+        /// Constructor de la clase taller donde se ingresa espacio disponible 
+        /// </summary>
+        /// <param name="espacioDisponible"> cantidad de espacio disponible en el taller </param>
         public Taller(int espacioDisponible):this()
         {
             this.espacioDisponible = espacioDisponible;
@@ -33,7 +40,7 @@ namespace Entidades
         /// <summary>
         /// Muestro el estacionamiento y TODOS los vehículos
         /// </summary>
-        /// <returns></returns>
+        /// <returns> Muestra el estacionamiento y sus vehiculos </returns>
         public override string ToString()
         {
             StringBuilder s = new StringBuilder();
@@ -52,7 +59,7 @@ namespace Entidades
         /// </summary>
         /// <param name="taller">Elemento a exponer</param>
         /// <param name="ETipo">Tipos de ítems de la lista a mostrar</param>
-        /// <returns></returns>
+        /// <returns> retorna los datos de los elementos que coincidan con el parametro ingresado </returns>
         public string Listar(Taller taller, ETipo tipo)
         {
             StringBuilder sb = new StringBuilder();
@@ -97,7 +104,7 @@ namespace Entidades
         /// </summary>
         /// <param name="taller">Objeto donde se agregará el elemento</param>
         /// <param name="vehiculo">Objeto a agregar</param>
-        /// <returns></returns>
+        /// <returns> retorna la lista con el nuevo elemento ingresado(solo si se pudo) </returns>
         public static Taller operator +(Taller taller, Vehiculo vehiculo)
         {
             bool flag = false;
@@ -124,7 +131,7 @@ namespace Entidades
         /// </summary>
         /// <param name="taller">Objeto donde se quitará el elemento</param>
         /// <param name="vehiculo">Objeto a quitar</param>
-        /// <returns></returns>
+        /// <returns> retorna la lista sin el elemento ingresado como parametro(solo si se pudo) </returns>
         public static Taller operator -(Taller taller, Vehiculo vehiculo)
         {
             bool flag = false;
